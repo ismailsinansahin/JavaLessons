@@ -1,0 +1,44 @@
+package com.smlsnnshn.DeveloperReview.lambda_javabrains.examples2;
+
+import java.util.function.BiConsumer;
+
+public class ExceptionHandlingInLambdas {
+
+    public static void main(String[] args) {
+
+        int[] someNumbers = {1,2,3,4};
+        int key=0;
+
+        //Solution-1
+        process(someNumbers, key, (v,k) -> {
+            try {
+                System.out.println(v/k);
+            }catch (ArithmeticException e){
+                System.out.println("An arithmetic exception happened");
+            }
+        });
+
+        //Solution-2
+        process(someNumbers, key, wrapperLambda((v,k) -> System.out.println(v/k)));
+
+
+    }
+
+    private static void process(int[] someNumbers, int key, BiConsumer<Integer,Integer> consumer) {
+        for (int each : someNumbers){
+            consumer.accept(each, key);
+        }
+    }
+
+    private static BiConsumer<Integer, Integer> wrapperLambda(BiConsumer<Integer, Integer> consumer){
+        return (v,k) -> {
+            try {
+                consumer.accept(v, k);
+            }
+            catch (ArithmeticException e){
+                System.out.println("Exception caught in wrapper lambda");
+            }
+        };
+    }
+
+}
