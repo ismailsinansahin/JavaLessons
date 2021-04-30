@@ -20,8 +20,6 @@ public class CreatingStream {
         //creating stream from specified values
         Stream<Integer> stream = Stream.of(1,2,3,4,5,6);
 
-        System.out.println(stream);
-
     }
 
 }

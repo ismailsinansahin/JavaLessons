@@ -1,7 +1,7 @@
 package com.smlsnnshn.DeveloperReview.streams;
 
-import com.smlsnnshn.collections.ArrayLists;
-import com.smlsnnshn.oop.encapsulation.Role;
+import com.smlsnnshn.DeveloperReview.collections.ArrayLists;
+import com.smlsnnshn.DeveloperReview.oop.encapsulation.Role;
 
 import java.util.Arrays;
 import java.util.List;

@@ -7,5 +7,4 @@ public interface UserServiceImplementation {
     String userByRoleId(int id);
     User userByFirstName(String firstName);
 
-
 }

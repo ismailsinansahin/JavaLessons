@@ -1,4 +1,4 @@
-package com.smlsnnshn.DeveloperReview;
+package com.smlsnnshn.DeveloperReview.lambda_javabrains;
 
 import com.smlsnnshn.DeveloperReview.lambda_javabrains.examples1.Person;
 
@@ -29,9 +29,7 @@ public class Example1 {
         long count = people.stream()
                 .filter(p -> p.getLastName().startsWith("C"))
                 .count();
-
         System.out.println(count);
-
 
     }
 

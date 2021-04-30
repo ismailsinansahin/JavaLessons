@@ -10,7 +10,7 @@ public class CourseTest {
         Course selenium1 = new Selenium();
         selenium1.study();
 
-        System.out.println("********FORGET ABOUT THİS PART********");
+        System.out.println("********FORGET ABOUT THIS PART********");
 
         Course java2 = new Course() {
             @Override
@@ -28,7 +28,7 @@ public class CourseTest {
         };
         selenium2.study();
 
-        System.out.println("********************************");
+        System.out.println("**************************************");
 
         Course javaCourse = () -> System.out.println("Studying Java");
         javaCourse.study();

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import Lessons.day46_Collection_1.Product;
+import com.smlsnnshn.Lessons.day46_Collection_1.Product;
 
 public class LoopMap {
 

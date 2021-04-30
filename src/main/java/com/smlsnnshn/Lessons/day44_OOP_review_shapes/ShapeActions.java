@@ -1,7 +1,7 @@
 package com.smlsnnshn.Lessons.day44_OOP_review_shapes;
 
-import static Lessons.day44_OOP_review_shapes.ShapeManager.*;
-import static Lessons.day44_OOP_review_shapes.ShapeManager.drawShape;
+import static com.smlsnnshn.Lessons.day44_OOP_review_shapes.ShapeManager.*;
+import static com.smlsnnshn.Lessons.day44_OOP_review_shapes.ShapeManager.drawShape;
 
 import java.util.ArrayList;
 import java.util.List;

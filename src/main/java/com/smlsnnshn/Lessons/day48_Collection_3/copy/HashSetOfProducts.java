@@ -3,7 +3,7 @@ package com.smlsnnshn.Lessons.day48_Collection_3.copy;
 import java.util.HashSet;
 import java.util.Set;
 
-import Lessons.day46_Collection_1.Product;
+import com.smlsnnshn.Lessons.day46_Collection_1.Product;
 
 public class HashSetOfProducts {
 
