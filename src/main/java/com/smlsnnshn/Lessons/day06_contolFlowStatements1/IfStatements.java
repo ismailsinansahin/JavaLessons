@@ -15,7 +15,7 @@ public class IfStatements {
 		
 		int sales,bonus;
 		double commisionRate,salary;		
-		sales=5000;
+		sales=5001;
 		salary=10000;
 		
 		if(sales>5000) {

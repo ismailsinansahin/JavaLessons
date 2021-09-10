@@ -10,7 +10,7 @@ public class ConstantVariables {
 		System.out.println("PI: " + PI);
 		PI = 100;
 		System.out.println("PI: " + PI);
-		
+
 		final double E = 2.78;
 		System.out.println("E:" + E);
 		//E = 5; //final variable cannot be assigned

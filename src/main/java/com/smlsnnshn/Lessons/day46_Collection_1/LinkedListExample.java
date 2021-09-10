@@ -20,7 +20,12 @@ public class LinkedListExample {
 		
 		((LinkedList<Integer>) list).addFirst(1);
 		((LinkedList<Integer>) list).addLast(99);
-		
+
+		System.out.println("list = " + list.toString());
+		list.remove(1);
+		list.remove(1);
+		System.out.println("list = " + list.toString());
+
 	}
 
 }
